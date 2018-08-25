@@ -1,0 +1,21 @@
+* {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 200;
+  box-sizing: border-box;
+}
+
+.outer-container {
+  width: 100%;
+  margin: 40px auto 8px;
+  text-align: center;
+}
+
+#open-file {
+  border-radius: 0;
+  width: 200px;
+}
+
+.rob {
+  height: 200px;
+  width: 200px;
+}
