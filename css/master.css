@@ -26,10 +26,15 @@
 
 .click-me {
   border: 2px solid fuchsia;
-  background-color: #ef9fd5;
   font-size: 40px;
+  font-weight: 700;
   padding: 5px 11px 5px 10px;
   text-align: center;
-  font-weight: 700;
-  
+  transition: all .1s ease-in;
+}
+
+.click-me:hover,
+.click-me:active,
+.click-me:focus {
+  background-color: #ef9fd5;
 }
