@@ -9,3 +9,27 @@
   margin: 40px auto 8px;
   text-align: center;
 }
+
+.input-field {
+  height: 0.1px;
+  width: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+#open-file,
+.click-me {
+  cursor: pointer;
+}
+
+.click-me {
+  border: 2px solid fuchsia;
+  background-color: #ef9fd5;
+  font-size: 40px;
+  padding: 5px 11px 5px 10px;
+  text-align: center;
+  font-weight: 700;
+  
+}
